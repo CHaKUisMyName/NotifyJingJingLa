@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "577090301642",
+    "project_id": "notifyjingjingla",
+    "storage_bucket": "notifyjingjingla.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577090301642:android:a2c122ae59110b2fd70e33",
+        "android_client_info": {
+          "package_name": "com.notifyjingjingla"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfNdaqKo6XAOhUgWUqFFAtIL_DZUYCu70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
