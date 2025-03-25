@@ -27,7 +27,21 @@ async function requestUserPermission() {
 // รับ FCM Token
 async function getToken() {
   const token = await messaging().getToken();
-  console.log('FCM Token:', token);
+
+  try {
+    await fetch('url', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        devicetoken: token,
+      }),
+    });
+    console.log('FCM Token:', token);
+  } catch (error) {
+    console.log(error);
+  }
 }
 
 // ✅ ฟังก์ชันสร้าง Notification Channel
